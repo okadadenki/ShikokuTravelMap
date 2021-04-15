@@ -3916,7 +3916,7 @@ p.frameBounds = [rect, rect, rect, rect];
 
 // stage content:
 (lib.index = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = false; }
+if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
@@ -3934,7 +3934,7 @@ if (reversed == null) { reversed = false; }
 		var n;
 		this.stop();
 		
-		loadingImages();
+		//loadingImages();
 		
 		function loadingImages(){
 			for(n = 110; n < 500; n++){
