@@ -3554,7 +3554,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.movieclip_button_BG_fade6();
 	this.instance.alpha = 0.8516;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({alpha:0.8053},0).wait(1).to({alpha:0.7605},0).wait(1).to({alpha:0.7158},0).wait(1).to({alpha:0.6711},0).wait(1).to({alpha:0.6263},0).wait(1).to({alpha:0.5816},0).wait(1).to({alpha:0.5368},0).wait(1).to({alpha:0.4921},0).wait(1).to({alpha:0.4474},0).wait(1).to({alpha:0.4026},0).wait(1).to({alpha:0.3579},0).wait(1).to({alpha:0.3132},0).wait(1).to({alpha:0.2684},0).wait(1).to({alpha:0.2237},0).wait(1).to({alpha:0.1789},0).wait(1).to({alpha:0.1342},0).wait(1).to({alpha:0.0895},0).wait(1).to({alpha:0.0447},0).wait(1).to({alpha:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({alpha:0.8184},0).wait(1).to({alpha:0.7868},0).wait(1).to({alpha:0.7553},0).wait(1).to({alpha:0.7237},0).wait(1).to({alpha:0.6921},0).wait(1).to({alpha:0.6605},0).wait(1).to({alpha:0.6289},0).wait(1).to({alpha:0.5974},0).wait(1).to({alpha:0.5658},0).wait(1).to({alpha:0.5342},0).wait(1).to({alpha:0.5026},0).wait(1).to({alpha:0.4711},0).wait(1).to({alpha:0.4395},0).wait(1).to({alpha:0.4079},0).wait(1).to({alpha:0.3763},0).wait(1).to({alpha:0.3447},0).wait(1).to({alpha:0.3132},0).wait(1).to({alpha:0.2816},0).wait(1).to({alpha:0.25},0).wait(1));
 
 	this._renderFirstFrame();
 
@@ -3584,9 +3584,9 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.movieclip_button_BG_fade6();
-	this.instance.alpha = 0;
+	this.instance.alpha = 0.25;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({alpha:0.0447},0).wait(1).to({alpha:0.0895},0).wait(1).to({alpha:0.1342},0).wait(1).to({alpha:0.1789},0).wait(1).to({alpha:0.2237},0).wait(1).to({alpha:0.2684},0).wait(1).to({alpha:0.3132},0).wait(1).to({alpha:0.3579},0).wait(1).to({alpha:0.4026},0).wait(1).to({alpha:0.4474},0).wait(1).to({alpha:0.4921},0).wait(1).to({alpha:0.5368},0).wait(1).to({alpha:0.5816},0).wait(1).to({alpha:0.6263},0).wait(1).to({alpha:0.6711},0).wait(1).to({alpha:0.7158},0).wait(1).to({alpha:0.7605},0).wait(1).to({alpha:0.8053},0).wait(1).to({alpha:0.85},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({alpha:0.2816},0).wait(1).to({alpha:0.3132},0).wait(1).to({alpha:0.3447},0).wait(1).to({alpha:0.3763},0).wait(1).to({alpha:0.4079},0).wait(1).to({alpha:0.4395},0).wait(1).to({alpha:0.4711},0).wait(1).to({alpha:0.5026},0).wait(1).to({alpha:0.5342},0).wait(1).to({alpha:0.5658},0).wait(1).to({alpha:0.5974},0).wait(1).to({alpha:0.6289},0).wait(1).to({alpha:0.6605},0).wait(1).to({alpha:0.6921},0).wait(1).to({alpha:0.7237},0).wait(1).to({alpha:0.7553},0).wait(1).to({alpha:0.7868},0).wait(1).to({alpha:0.8184},0).wait(1).to({alpha:0.85},0).wait(1));
 
 	this._renderFirstFrame();
 
@@ -3861,11 +3861,7 @@ if (reversed == null) { reversed = false; }
 	this.fd_in3.name = "fd_in3";
 	this.fd_in3.setTransform(35,0);
 
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(210,0,0,0.847)").s().p("AldImIAAxLIK7AAIAARLg");
-	this.shape_1.setTransform(35,0);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3}]}).to({state:[{t:this.fd_in3}]},1).to({state:[{t:this.shape_1}]},1).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3}]}).to({state:[{t:this.fd_in3}]},1).to({state:[]},2).wait(1));
 
 	this._renderFirstFrame();
 
@@ -3909,11 +3905,7 @@ if (reversed == null) { reversed = false; }
 	this.fd_in3.name = "fd_in3";
 	this.fd_in3.setTransform(35,0);
 
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(210,0,0,0.847)").s().p("AldImIAAxLIK7AAIAARLg");
-	this.shape_1.setTransform(35,0);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3}]}).to({state:[{t:this.fd_in3}]},1).to({state:[{t:this.shape_1}]},1).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3}]}).to({state:[{t:this.fd_in3}]},1).to({state:[]},2).wait(1));
 
 	this._renderFirstFrame();
 
@@ -3924,7 +3916,7 @@ p.frameBounds = [rect, rect, rect, rect];
 
 // stage content:
 (lib.index = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
+if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
@@ -5180,11 +5172,18 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(1).to({regX:640,regY:359.7,x:640,y:359.7,alpha:0.0526},0).wait(1).to({alpha:0.1053},0).wait(1).to({alpha:0.1579},0).wait(1).to({alpha:0.2105},0).wait(1).to({alpha:0.2632},0).wait(1).to({alpha:0.3158},0).wait(1).to({alpha:0.3684},0).wait(1).to({alpha:0.4211},0).wait(1).to({alpha:0.4737},0).wait(1).to({alpha:0.5263},0).wait(1).to({alpha:0.5789},0).wait(1).to({alpha:0.6316},0).wait(1).to({alpha:0.6842},0).wait(1).to({alpha:0.7368},0).wait(1).to({alpha:0.7895},0).wait(1).to({alpha:0.8421},0).wait(1).to({alpha:0.8947},0).wait(1).to({alpha:0.9474},0).wait(1).to({alpha:1},0).to({_off:true},1).wait(10));
 
 	// Addition
+	this.text = new cjs.Text("Components Now Loading . . .", "bold 25px 'Verdana'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 32;
+	this.text.lineWidth = 468;
+	this.text.parent = this;
+	this.text.setTransform(650.7,641.75);
+
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#000000").s().p("Ehj/A4QMAAAhwfMDH/AAAMAAABwfg");
 	this.shape_1.setTransform(640,360);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).to({_off:true},30).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.text}]}).to({state:[{t:this.shape_1}]},1).to({state:[]},29).wait(1));
 
 	// Slidshow_Button
 	this.button_navigation = new lib.button_slideshow_navigation();
